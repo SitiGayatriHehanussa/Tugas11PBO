@@ -1,0 +1,8 @@
+CREATE DATABASE `Mahasiswa`;
+USE `mahasiswa`;
+
+CREATE TABLE `tabel_mahasiswa` (
+`nomhs` varchar(5) NOT NULL PRIMARY KEY AUTO_INCREMENT,
+`nama` varchar(30),
+`jurusan` varchar(15),
+);
